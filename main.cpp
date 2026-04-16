@@ -218,7 +218,7 @@ int main(int argc, char** argv) {
   // Defaults for Orange Pi Zero 2W PI03 (physical pin 40): line offset 259
   // NOTE: chip name may differ (gpiochip0/gpiochip1). We use "gpiochip0" by default.
   std::string chip = "gpiochip0";
-  unsigned int line = 259;
+  unsigned int line = 272;
   int period_ms = 1000;
 
   if (argc >= 2) chip = argv[1];

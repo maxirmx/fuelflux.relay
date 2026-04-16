@@ -4,9 +4,9 @@ This is a minimal C++ demo to control an **active-low** relay input from an
 Orange Pi Zero 2W using `libgpiod`.
 
 Target pin in your setup:
-- Physical pin **40**
-- Signal name **PI03**
-- Line offset **259** (from your `gpio readall`)
+- Physical pin **37**
+- Signal name **PI16**
+- Line offset **272**
 
 Relay board:
 - Waveshare "RPi Relay Board" (active LOW)
